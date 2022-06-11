@@ -5,6 +5,4 @@ date:   2021-12-26 00:00:00 +0300
 categories: ABP Syncfusion Components MVC Razor-Pages
 ---
 
-This article is published on [community.abp.io](https://community.abp.io/).
-
 You can read the article from [here](https://community.abp.io/posts/integrating-the-syncfusion-mvc-components-to-the-abp-mvc-ui-0gpkr1if).
