@@ -13,8 +13,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Engincan Veske
-  tagline: Software Engineer. 
-  Team member of ABP Framework.
+  tagline: Software Engineer. Team member of ABP Framework.
   date_format: "%b %-d, %Y"
   sitemap: true 
   search: true 
