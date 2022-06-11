@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What are OAuth 2.0 and OIDC (OpenID Connect)? Step By Step Authorization Code Flow With Endpoints"
-date:   2020-12-16 00:00:00 +0300
+date:   2022-06-11 00:00:00 +0300
 categories: Oauth2 Authorization Authentication Identity
 ---
 
