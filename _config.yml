@@ -2,16 +2,18 @@ title: Engincan Veske - Personal Blog
 author: EngincanV
 email: enginveske@gmail.com
 description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi, I am Engincan VESKE. 
+  I am a software engineer with 4+ years of experience. 
+  I like to read, research and take notes. 
+  Also, I like to share what I've learned in my blog. 
+  I regularly write articles on medium (in Turkish), dev.to and community.abp.io (in English). 
 show_excerpts: true
 
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
+  name: Engincan Veske
+  tagline: Software Engineer. Team member of ABP Framework.
   date_format: "%b %-d, %Y"
   sitemap: true 
   search: true 
