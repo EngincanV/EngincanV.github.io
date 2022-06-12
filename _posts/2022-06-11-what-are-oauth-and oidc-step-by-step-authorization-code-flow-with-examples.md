@@ -1,8 +1,11 @@
 ---
-layout: post
-title:  "What are OAuth 2.0 and OIDC (OpenID Connect)? Step By Step Authorization Code Flow With Endpoints"
+title: "What are OAuth 2.0 and OIDC (OpenID Connect)? Step By Step Authorization Code Flow With Endpoints"
+author: Engincan Veske
 date:   2022-06-11 00:00:00 +0300
-categories: Oauth2 Authorization Authentication Identity
+categories: [Identity Management, Authorization, Authentication]
+tags: [oauth2, authorization, authentication, identity-management]
+math: true
+mermaid: true
 ---
 
 In this article, I would like to talk about OAuth 2.0, which is used as a protocol (industry standard) for **Authorization** and OIDC (OpenID Connect) which is a top layer of the OAuth 2.0 and used for **Authentication**.
