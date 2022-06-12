@@ -1,11 +1,8 @@
 ---
-title: "Replacing Email Templates and Sending Emails in ABP Framework"
-author: Engincan Veske
+layout: post
+title:  "Replacing Email Templates and Sending Emails in ABP Framework"
 date:   2020-10-12 14:00:00 +0300
-categories: [ABP Community]
-tags: [abp, templates, sending-email]
-math: true
-mermaid: true
+categories: ABP Templates Sending-Email
 ---
 
 You can read the article from [here](https://community.abp.io/posts/replacing-email-templates-and-sending-emails-jkeb8zzh).

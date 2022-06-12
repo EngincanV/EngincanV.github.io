@@ -1,11 +1,8 @@
 ---
-title: "What is Code/IL Weaving?"
-author: Engincan Veske
+layout: post
+title:  "What is Code/IL Weaving?"
 date:   2022-06-12 14:00:00 +0300
-categories: [Code-Weaving, .NET Core]
-tags: [code-weaving, IL-weaving, fody]
-math: true
-mermaid: true
+categories: Code-Weaving IL-Weaving Compile-Time Run-Time
 ---
 
 In this article, I'll describe what "Code/IL Weaving" is. But before describing the term of Code Weaving it can be better to examine the compile and runtime stages of a .NET application.
