@@ -1,39 +1,38 @@
 ---
-layout: default
+layout: main
 ---
-{%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
-<div class="post-container">
-  <a class="post-link" href="{{ page.url | relative_url }}">
-    <h2 class="post-title">{{ page.title | escape }}</h2>
-  </a>
-  <div class="post-meta">
-    <div class="post-date"><i class="icon-calendar"></i>{{ page.date | date: date_format }}</div>
-    {%- if page.categories.size > 0 -%}
-    <ul class="post-categories">
-      {%- for tag in page.categories -%}
-      <li>{{ tag }}</li>
-      {%- endfor -%}
-    </ul>
-    {%- endif -%}
-  </div>
-  <div class="post">
-    {{ content }}
-  </div>
-  {%- if site.plainwhite.disqus_shortname -%}
-  <div id="disqus_thread" style="margin-top:25px"></div>
-  <script>
-    var disqus_config = function () {
-      this.page.url = '{{ page.url | absolute_url }}';
-      this.page.identifier = '{{ page.url | absolute_url }}';
-    };
-    (function () {
-      var d = document, s = d.createElement('script');
-      s.src = 'https://{{ site.plainwhite.disqus_shortname }}.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments
-      powered by Disqus.</a></noscript>
-  {%- endif -%}
-</div>
+<article class="article-page">
+  <div class="page-content">
+    {% if page.img %}
+    <div class="page-cover-image">
+      <figure>
+        <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
+        {% if page.fig-caption %}
+          <figcaption>{{page.fig-caption}}</figcaption>
+        {% endif %}
+      </figure>
+    </div> <!-- End Page Cover Image -->
+    {% else %}
+    {% endif %}
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">{{page.title}}</h1>
+        <div class="page-date"><span>{{page.date | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+      </header>
+      {{content | markdownify}}
+      <div class="page-footer">
+        <div class="page-share">
+          <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+        </div>
+        <div class="page-tag">
+          {% for tag in page.tags %}
+            <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">&#35; {{ tag }}</a>
+          {% endfor %}
+        </div>
+      </div>
+      {% include disqus.html %}
+    </div> <!-- End Wrap Content -->
+  </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->
