@@ -1,32 +1,40 @@
 title: Engincan Veske - Personal Blog
+author: EngincanV
+email: enginveske@gmail.com
 description: >
   Hi, I am Engincan VESKE. 
   I am a software engineer with 4+ years of experience. 
   I like to read, research and take notes. 
   Also, I like to share what I've learned in my blog. 
-permalink: ':title/'
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: ""
+show_excerpts: true
 
-author: Engincan Veske
-author-img: portfolio.png
-about-author: I am a web developer focusing on back-end development. Always hungry to keep learning.
-social-twitter: EngincanVeske
-social-github: EngincanV 
-social-linkedin: in/engincanv/
-social-email: enginveske@gmail.com
+sass:
+  sass_dir: _sass
+plainwhite:
+  name: Engincan Veske
+  tagline: Software Engineer. Team member of ABP Framework.
+  date_format: "%b %-d, %Y"
+  sitemap: true 
+  search: true 
+  dark_mode: true 
+  portfolio_image: "assets/portfolio.png" 
+  html_lang: "en" 
+  condensed_mobile:
+    #- home
+    - page
+    - post
+  # generate social links in footer
+  social_links:
+    twitter: EngincanVeske
+    github:  EngincanV
+    linkedIn: in/engincanv
+    stackoverflow: users/10477283/engincan-veske
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
 
-# Disqus
-discus-identifier: engincanveske # add your discus identifier
-
-# Build Settings
-markdown: kramdown
 plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jemoji
+  - jekyll-seo-tag
 
-paginate: 8
-paginate_path: "/page/:num"
-
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+remote_theme: samarsault/plainwhite-jekyll

@@ -1,9 +1,6 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
 
-gem 'jekyll'
+source "https://rubygems.org"
+gemspec
 
-group :jekyll_plugins do
-  gem "jekyll-sitemap"
-  gem "jekyll-paginate"
-  gem "jemoji"
-end
+gem "plainwhite"
