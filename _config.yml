@@ -17,6 +17,7 @@ plainwhite:
   sitemap: true 
   search: true 
   dark_mode: true 
+  disqus_shortname: engincanveske
   portfolio_image: "assets/portfolio.png" 
   html_lang: "en" 
   condensed_mobile:
@@ -31,8 +32,8 @@ plainwhite:
     stackoverflow: users/10477283/engincan-veske
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
-#header_pages:
-# - about.md
+header_pages:
+- about.md
 
 plugins:
   - jekyll-seo-tag
