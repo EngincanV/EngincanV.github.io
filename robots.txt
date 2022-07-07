@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: http://docs.herbertcomputers.co.uk/sitemap.xml
