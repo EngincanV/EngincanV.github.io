@@ -1,26 +1,41 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+title: Engincan Veske - Personal Blog
+author: EngincanV
+email: enginveske@gmail.com
+description: >
+  Hi, I am Engincan VESKE. 
+  I am a software engineer with 4+ years of experience. 
+  I like to read, research and take notes. 
+  Also, I like to share what I've learned in my blog. 
+show_excerpts: true
 
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
+sass:
+  sass_dir: _sass
+plainwhite:
+  name: Engincan Veske
+  tagline: Software Engineer. Team member of ABP Framework.
+  date_format: "%b %-d, %Y"
+  sitemap: true 
+  search: true 
+  dark_mode: true 
+  disqus_shortname: engincanv-github-io
+  portfolio_image: "assets/portfolio.png" 
+  html_lang: "en" 
+  condensed_mobile:
+    #- home
+    - page
+    - post
+  # generate social links in footer
+  social_links:
+    twitter: EngincanVeske
+    github:  EngincanV
+    linkedIn: in/engincanv
+    stackoverflow: users/10477283/engincan-veske
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+# header_pages:
+# - about.md
 
-# Setup
-title:            Hyde
-tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+plugins:
+  - jekyll-seo-tag
 
-author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
-
-paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/poole/hyde
+remote_theme: samarsault/plainwhite-jekyll
