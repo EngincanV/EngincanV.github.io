@@ -27,6 +27,8 @@ You can also use these values on the client side and perform common application 
 
 We may want to add some extra-properties to the endpoint. It's possible and pretty straightforward. We just need to create an **Application Configuration Contributor** and configure it in the `AbpApplicationConfigurationOptions`.
 
+> `IApplicationConfigurationContributor` is [introduced in **v6.0**](https://github.com/abpframework/abp/pull/13100). So, if you want to extend the `/api/abp/application-configuration` endpoint, ensure your package version is **v6.0+**.
+
 Let's assume a simple scenario  and implement it. We may want to add a version number to the endpoint to specify the deployment version and show it on the footer of the page. I know it might not be a good scenerio but stick with me :)
 
 > For the rest of the article, I assume that you already created an application and then started to follow this article. If you haven't created an application yet, please [create an application](https://docs.abp.io/en/abp/latest/CLI#new) by using the ABP CLI and then continue to the article. In this article, I go with an application with MVC (so I'll be doing the configurations in the web layer) but it's also applicable for all UI types.
