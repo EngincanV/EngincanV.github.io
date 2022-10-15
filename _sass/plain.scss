@@ -349,15 +349,12 @@ blockquote {
   }
 }
 
-code {
-  .language-plaintext {
-    .highlighter-rouge {
-      padding: 0.2em 0.4em;
-      margin: 0;
-      font-size: 82%;
-      background-color: #494e5821;
-      border-radius: 3px;
-      color: #28a745;
-    }
-  }
+
+code.highlighter-rouge {
+  padding: 0.2em 0.4em !important;
+  margin: 0 !important;
+  font-size: 82% !important;
+  background-color: #494e5821 !important;
+  border-radius: 3px !important;
+  color: #28a745 !important;
 }
