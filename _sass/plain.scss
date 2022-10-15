@@ -348,3 +348,16 @@ blockquote {
     margin: auto !important;
   }
 }
+
+code {
+  .language-plaintext {
+    .highlighter-rouge {
+      padding: 0.2em 0.4em;
+      margin: 0;
+      font-size: 82%;
+      background-color: #494e5821;
+      border-radius: 3px;
+      color: #28a745;
+    }
+  }
+}
