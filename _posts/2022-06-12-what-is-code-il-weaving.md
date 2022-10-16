@@ -63,6 +63,6 @@ Thanks for reading this article. See you in the next post.
 
 ## References
 
-* [https://codeasy.net/lesson/c_sharp_compilation_process](https://codeasy.net/lesson/c_sharp_compilation_process)
-* [https://codingcanvas.com/code-weaving-using-fody/](https://codingcanvas.com/code-weaving-using-fody/)
-* [https://medium.com/@heytherewill/net-il-weaving-for-those-who-know-nothing-about-net-il-weaving-c0f7e461ef47](https://medium.com/@heytherewill/net-il-weaving-for-those-who-know-nothing-about-net-il-weaving-c0f7e461ef47)
+* [C# Compilation Process](https://codeasy.net/lesson/c_sharp_compilation_process)
+* [Code Weaving Using Fody](https://codingcanvas.com/code-weaving-using-fody/)
+* [Weaving for those who know nothing about net it weaving](https://medium.com/@heytherewill/net-il-weaving-for-those-who-know-nothing-about-net-il-weaving-c0f7e461ef47)

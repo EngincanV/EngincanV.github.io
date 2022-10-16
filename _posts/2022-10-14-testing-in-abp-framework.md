@@ -202,7 +202,7 @@ public async Task GetListAsync()
 ```
 
 > 
-> See a sample test from ABP Framework that use the `ICurrentTenant.Change` method: https://github.com/abpframework/abp/blob/dev/framework/test/Volo.Abp.Features.Tests/Volo/Abp/Features/FeatureChecker_Tests.cs#L25-L28
+> See a sample test from ABP Framework that use the `ICurrentTenant.Change` method: [FeatureChecker_Tests](https://github.com/abpframework/abp/blob/dev/framework/test/Volo.Abp.Features.Tests/Volo/Abp/Features/FeatureChecker_Tests.cs#L25-L28)
 
 ### Creating a Test Data Class
 
