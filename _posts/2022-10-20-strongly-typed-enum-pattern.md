@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Strongly Typed Enum Pattern"
-date:   2022-10-20 00:00:00 +0300
+date:   2022-10-18 00:00:00 +0300
 categories: Patterns
 ---
 
