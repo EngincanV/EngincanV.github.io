@@ -117,6 +117,17 @@ public class BookType
 
 ---
 
+So far, we've seen both approaches/usages. Let's list the some of pros and cons of these usages:
+
+| Enum Type | Strongly Typed Enum Pattern |
+| --- | --- |
+| (+) Easy to use, can be used in entity classes and directly mapped with database tables. | (-) Can not be directly mapped with the database tables. (a numeric value can be used instead) |
+| (+) Can be used as bit flags. | (-) Can not be used as bit flags. |
+| (-) Can be easily manipulated. | (+) Hard to manipulate and more robust design. |
+| (-) Harder to list enum values. (Usually needs to use Description attribute for display name) | (+) A List method can be implemented and values listed. |
+
+---
+
 ### Conclusion
 
 In this post, I tried to talk about possible problems we might face, while using the Enum type and implemented the **Strongly Typed Enum** pattern to overcome possible problems. 
