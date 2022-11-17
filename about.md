@@ -1,5 +1,8 @@
-## About me
+<h1 align="center">Hi 👋, I'm Engincan Veske</h1>
+<h3 align="center">Software Engineer</h3>
 
-I am Engincan VESKE. I am a software engineer with 4+ years of experience. 
-I like to read, research and take notes. Also, I like to share what I've learned in my blog. 
-I regularly write articles on my personal blog website and community.abp.io. 
+💼 I am currently working as Software Engineer at <a href="https://volosoft.com/" target="_blank"><b>Volosoft</b></a>.
+
+📝 I regularly write articles on [medium](https://medium.com/@enginveske) (in Turkish), [my personal website (blog)](https://engincanv.github.io/) and [community.abp.io](https://community.abp.io/members/EngincanV) (in English).
+
+💻 Most of my works are open source and available on [GitHub](https://github.com/EngincanV). 
