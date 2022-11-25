@@ -8,9 +8,9 @@
 
 💻 Most of my works are open source and available on [GitHub](https://github.com/EngincanV). 
 
-### My Public Talks
+🎤 Also, I give public talks. You can see my previous talks down below:
 
-#### ABP Framework
+* [Community Talks 2022.6: ABP Framework v6.0 & OpenIddict](ABP/Community-Talks-2022.6) - watch the event from [here](https://www.youtube.com/watch?v=th3IugJGQDA).
+* [Community Talks 2022.9: .NET 7.0 & ABP 7.0](ABP/Community-Talks-2022.9) - watch the event from [here](https://www.youtube.com/watch?v=ElhFMhLNyqY).
 
-* [Community Talks 2022.6: ABP Framework v6.0 & OpenIddict](ABP/Community-Talks-2022.6) - watch event from [here](https://www.youtube.com/watch?v=th3IugJGQDA).
-* [Community Talks 2022.9: .NET 7.0 & ABP 7.0](ABP/Community-Talks-2022.9) - watch event from [here](https://www.youtube.com/watch?v=ElhFMhLNyqY).
+> For source materials of these talks see [this repository](https://github.com/EngincanV/presentations).
