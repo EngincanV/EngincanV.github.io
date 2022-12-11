@@ -28,6 +28,8 @@ When writing an article, we should use terms consistently, which means we should
 |---|---|
 | Protocol Buffers provide their own definition language. ... And that's why protobufs have won so many county fairs.  | Protocol Buffers (or protobufs for short) provide their own definition language. Blah, blah, blah. And that's why protobufs have won so many county fairs. |
 
+<br />
+
 > Notice, the good sentence first uses the full term and then puts the acronym in parentheses. This is also good practice.
 
 ## Don't use "this" and "that" if it's not clear what they refer to
@@ -73,6 +75,8 @@ We can change this sentence and use a stronger verb like *raises* instead of *oc
 
 > "Dividing by zero **raises** the exception."
 
+<br />
+
 ## Reduce "there is" / "there are"
 
 Reducing the there is/are statements makes a sentence clear:
@@ -81,6 +85,8 @@ Reducing the there is/are statements makes a sentence clear:
 | --- | --- |
 | There is a variable called `abc` that stores the current accuracy. | A variable named `abc` stores the current accuracy. |
 | There are two disturbing facts about Perl you should know. | You should know two disturbing facts about Perl. |
+
+<br />
 
 ## Use short sentences if possible
 
@@ -104,6 +110,8 @@ In the first sentence, the "which" is used to give a piece of extra information 
 
 > **Tip:** Place a comma before **which**; do not place a comma before **that**. 
 
+<br />
+
 ## Choose the correct type of list
 
 There are three types of lists:
@@ -115,6 +123,9 @@ There are three types of lists:
 Use a **bulleted list** for unordered items; use a **numbered list** for ordered items and use an **embedded list** for items within a sentence.  
 
 > Generally speaking, **embedded lists** are a poor way to present technical information. **Try to transform embedded lists into either bulleted lists or numbered lists.**
+
+<br />
+
 
 ## Start numbered list items with imperative verbs
 
@@ -132,9 +143,9 @@ Introducing each list and table with a sentence that tells readers what the list
 
 Using the `following` word is recommended to put into the introductory sentence.
 
-For example:
+For example: "Take the **following** steps to install our application:".
 
-> Take the **following** steps to install our application:
+<br />
 
 ## Do not make paragraphs too long or too short
 
@@ -143,6 +154,8 @@ Long paragraphs are visually intimidating. When revising, consider dividing a v
 Conversely, don't make paragraphs too short. If your document contains plenty of one-sentence paragraphs, your organization is probably faulty.
 
 > **Tip:** Readers generally welcome paragraphs containing **three to five sentences**, but will avoid paragraphs containing more than about **seven sentences**.
+
+<br />
 
 ## Answer "what", "why" and "how" questions
 
@@ -170,6 +183,8 @@ Avoid **idioms** because idioms are phrases whose overall meaning differs from 
 
 ## Conclusion
 
-In this article, I wanted to share the notes that I've taken from [Google's Technical Writing One Course](https://developers.google.com/tech-writing/one). It's a really good course and gives me great tips for technical writing. I highly recommend it if you are considering being a technical writer or want to improve your writing skills.
+In this article, I wanted to share the notes that I've taken from [Google's Technical Writing One Course](https://developers.google.com/tech-writing/one). 
+
+It's a really good course and gives me great tips for technical writing. I highly recommend it if you are considering being a technical writer or want to improve your writing skills.
 
 Thanks for reading the article. I hope you find it useful. See you in the next article...
