@@ -28,8 +28,6 @@ When writing an article, we should use terms consistently, which means we should
 |---|---|
 | Protocol Buffers provide their own definition language. ... And that's why protobufs have won so many county fairs.  | Protocol Buffers (or protobufs for short) provide their own definition language. Blah, blah, blah. And that's why protobufs have won so many county fairs. |
 
-<br />
-
 > Notice, the good sentence first uses the full term and then puts the acronym in parentheses. This is also good practice.
 
 ## Don't use "this" and "that" if it's not clear what they refer to
@@ -75,8 +73,6 @@ We can change this sentence and use a stronger verb like *raises* instead of *oc
 
 > "Dividing by zero **raises** the exception."
 
-<br />
-
 ## Reduce "there is" / "there are"
 
 Reducing the there is/are statements makes a sentence clear:
@@ -110,8 +106,6 @@ In the first sentence, the "which" is used to give a piece of extra information 
 
 > **Tip:** Place a comma before **which**; do not place a comma before **that**. 
 
-<br />
-
 ## Choose the correct type of list
 
 There are three types of lists:
@@ -123,8 +117,6 @@ There are three types of lists:
 Use a **bulleted list** for unordered items; use a **numbered list** for ordered items and use an **embedded list** for items within a sentence.  
 
 > Generally speaking, **embedded lists** are a poor way to present technical information. **Try to transform embedded lists into either bulleted lists or numbered lists.**
-
-<br />
 
 
 ## Start numbered list items with imperative verbs
@@ -145,8 +137,6 @@ Using the `following` word is recommended to put into the introductory sentence.
 
 For example: "Take the **following** steps to install our application:".
 
-<br />
-
 ## Do not make paragraphs too long or too short
 
 Long paragraphs are visually intimidating. When revising, consider dividing a very long paragraph into two separate paragraphs.
@@ -154,8 +144,6 @@ Long paragraphs are visually intimidating. When revising, consider dividing a v
 Conversely, don't make paragraphs too short. If your document contains plenty of one-sentence paragraphs, your organization is probably faulty.
 
 > **Tip:** Readers generally welcome paragraphs containing **three to five sentences**, but will avoid paragraphs containing more than about **seven sentences**.
-
-<br />
 
 ## Answer "what", "why" and "how" questions
 
