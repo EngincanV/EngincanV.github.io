@@ -24,7 +24,7 @@ However, the hosts files used for decades before DNS system and still operating 
 
 You can see a sample hosts file content down below:
 
-```txt
+```
 # Copyright (c) 1993-2009 Microsoft Corp.
 #
 # This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
@@ -52,7 +52,7 @@ The hosts file contains lines of text consisting of IP addresses in the first te
 
 The hosts file still uses before DNS came into play. When looking up an IP address, the computer first looks at the **hosts** file to resolve the hostname. If the hostname is not in the **hosts** file, the DNS system tries to resolve it and if also not found, the lookup fails.
 
-```txt
+```
 127.0.0.1  localhost loopback
 ::1        localhost
 ```
@@ -86,7 +86,7 @@ I researched some possible solutions for this testing purpose. Then, I found the
 
 Thus, I open the **hosts** file under **\System32\drivers\etc\hosts** and added a new line to the file:
 
-```txt
+```
 127.0.0.1 github.com
 ```
 
