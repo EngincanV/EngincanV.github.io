@@ -42,11 +42,11 @@ You can use the following tips for outlining documentation:
 - Structure your outline so that your document introduces information when it's most relevant to your reader.
 - Consider explaining a concept and then demonstrating how the reader can apply it either in a sample project or in their own work and if possible provide alternatives.
 
-You can see an example outline of a document in below illustration:
+You can see an example outline of a document in the image below:
 
 ![](/assets/images/tech-writing/outline.png)
 
-> I took the outline from an old Github issue. You can check it [here](https://github.com/abpframework/abp/issues/12489).
+> I took the outline from an old GitHub issue. You can check it out [here](https://github.com/abpframework/abp/issues/12489).
 
 ### Introduce a document
 
