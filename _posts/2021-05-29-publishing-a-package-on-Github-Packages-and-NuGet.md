@@ -5,11 +5,11 @@ date:   2021-05-29 00:00:00 +0000
 categories: NuGet Github Package-Management SeoHelper
 ---
 
-![](/assets/images/publishing-package/cover-image.png)
-
 In this article, I will talk about how we can publish a package that we have created, on both GitHub and NuGet.
 
 I will try to explain the publishing process with a concrete example. We will publish a package named [SeoHelper](https://github.com/EngincanV/SeoHelper) (both on NuGet and GitHub Packages), which I created this week.
+
+![](/assets/images/publishing-package/cover-image.png)
 
 ## Publishing a Package to Github Packages
 
