@@ -5,7 +5,7 @@ date:   2021-05-29 00:00:00 +0000
 categories: NuGet Github Package-Management SeoHelper
 ---
 
-![](assets/publishing-package/cover-image.png)
+![](/assets/publishing-package/cover-image.png)
 
 In this article, I will talk about how we can publish a package that we have created, on both GitHub and NuGet.
 
@@ -38,7 +38,7 @@ After a few articles I read, I was able to publish the relevant NuGet package as
 
 Then, when we open the **bin/Release** folder, we can see that a file named **SeoHelper.1.0.0.nupkg** has been created. (We will later use this file to share the relevant package publicly on NuGet.)
 
-![](assets/publishing-package/seohelper-nupkg.png)
+![](/assets/publishing-package/seohelper-nupkg.png)
 
 We have 2 steps left to publish this created NuGet package with the `.nupkg` extension on Github. First, create the **NuGet.Config** file, then create a [PAT (Personal Access Token)](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) on Github and run it with the relevant command.
 
@@ -72,11 +72,11 @@ dotnet nuget push “bin/Release/SeoHelper.1.0.0.nupkg” — -api-key YOUR_GITH
 
 After running this command, we should get an output similar to the one below:
 
-![](assets/publihsing-package/output.png)
+![](/assets/publihsing-package/output.png)
 
 Then, if we open our repository and look at the **Packages** section, we should be able to see the relevant package (https://github.com/EngincanV?tab=packages&repo_name=SeoHelper):
 
-![](assets/publishing-package/packages.png)
+![](/assets/publishing-package/packages.png)
 
 
 ## Publishing a Package to NuGet
@@ -85,15 +85,15 @@ Then, if we open our repository and look at the **Packages** section, we should 
 
 Publishing a package to NuGet is really straightforward process. After creating a `.nupkg` package (as we did in the previous section), we just need to upload this file (**SeoHelper.1.0.0.nupkg**) through [NuGet's](https://www.nuget.org/) Upload Package page:
 
-![](assets/publishing-package/upload-package.png)
+![](/assets/publishing-package/upload-package.png)
 
 After clicking on the relevant link, an upload form similar to the one below will appear. Here we need to load our **SeoHelper.1.0.0.nupkg** package into the form field and make the relevant package descriptions:
 
-![](assets/publishing-package/package-upload-form.png)
+![](/assets/publishing-package/package-upload-form.png)
 
 Here, after installing the package, our package is put on hold for verification, and after the relevant verification process is completed, the relevant package is now available to everyone via NuGet:
 
-![](assets/publishing-package/seohelper-package.png)
+![](/assets/publishing-package/seohelper-package.png)
 
 > You can check the SeoHelper package from: https://www.nuget.org/packages/SeoHelper
 
