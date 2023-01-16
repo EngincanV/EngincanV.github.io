@@ -67,9 +67,9 @@ public class BookType
 {
     public static BookType Undefined { get; } = new BookType(0, "Undefined");
     public static BookType Adventure { get; } = new BookType(1, "Adventure");
-    public static BookType History { get; } = new BookType(1, "History");
-    public static BookType Dystopia { get; } = new BookType(1, "Dystopia");
-    public static BookType Others { get; } = new BookType(1, "Others");
+    public static BookType History { get; } = new BookType(2, "History");
+    public static BookType Dystopia { get; } = new BookType(3, "Dystopia");
+    public static BookType Others { get; } = new BookType(4, "Others");
 
     public int Number { get; private set; }
 
