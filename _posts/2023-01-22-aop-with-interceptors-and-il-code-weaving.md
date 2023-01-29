@@ -13,7 +13,9 @@ I aim to create this article as a practical guide. Therefore, instead of talking
 
 Wikipedia defines [Aspect-oriented programming](https://en.wikipedia.org/wiki/Aspect-oriented_programming) as:
 
+
 > In computing, aspect-oriented programming (AOP) is a programming paradigm that aims to increase modularity by allowing the separation of cross-cutting concerns.
+
 
 This description pretty much describes itself, but let's describe it in a more practical way for real-world use.
 
@@ -23,7 +25,9 @@ After we go with layered architectures, we can notice there are some **concerns*
 
 At that point, **Aspect Oriented Programming** comes into play and helps us to achieve this kind of requirement in a central place and use it conventionally. Thus, we can say the main purpose of the AOP is *to separate cross-cutting concerns*, *improve modularity*, and *don't repeat ourselves*.
 
+
 > With Aspect Oriented Programming, we use the [Decorator Pattern](https://en.wikipedia.org/wiki/Decorator_pattern) in a way. *"This pattern is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects."*
+
 
 **Intercepting** and **IL/Code Weaving** are common approaches for this purpose and we'll see them in action, in the next sections.
 
@@ -103,7 +107,9 @@ builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory())
 
 Here, we configured our IoC Container and said, to use the `AutofacModule` class for service registrations. But, we haven't created this class yet. So, let's create it and register our services.
 
+
 > To keep the article as short as possible, assume we have the `IOrderRepository` interface and `OrderRepository` as its implementation class.
+
 
 ```csharp
 public class AutofacModule : Module
