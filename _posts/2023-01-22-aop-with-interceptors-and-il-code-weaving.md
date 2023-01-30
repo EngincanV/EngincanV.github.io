@@ -46,7 +46,7 @@ You can see the main logic of this approach, in the following image:
 * First, let's assume we inject `IMyInterface` and use one of its methods in our code.
 * In a default case, IoC Containers are responsible to give us an implementation of the `IMyInterface` which is `MyClass` in our example.
 * When **Interceptors** and **Dynamic Proxy** terms come into play, this behaviour inverted and new class which is `ProxyInterceptor` returned by IoC Containers.
-* In other words, when we inject `IMyInterface` the `ProxyInterceptor` class returns to us as a implementaion instead of `MyClass`.
+* In other words, when we inject `IMyInterface` the `ProxyInterceptor` class returns to us as a implementation, instead of `MyClass`.
 
 ### Interceptors in action
 
