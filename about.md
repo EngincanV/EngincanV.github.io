@@ -10,7 +10,8 @@
 
 🎤 Also, I give public talks. You can see my previous talks down below:
 
-* [Community Talks 2022.6: ABP Framework v6.0 & OpenIddict](https://kommunity.com/volosoft/events/abp-community-talks-20226-abp-framework-v60-openiddict-15007e21) - watch the event from [here](https://www.youtube.com/watch?v=th3IugJGQDA).
-* [Community Talks 2022.9: .NET 7.0 & ABP 7.0](https://kommunity.com/volosoft/events/abp-community-20229-net-70-abp-70-f9e8fb72) - watch the event from [here](https://www.youtube.com/watch?v=ElhFMhLNyqY).
+* [ABP Community Talks 2023.1: LeptonX Customization](https://kommunity.com/volosoft/events/abp-community-talks-20231-leptonx-customization-03f9fd8c) - [📜 Slides]([ABP/Community-Talks-2023.1](https://github.com/EngincanV/presentations/tree/main/ABP/Community-Talks-2023.1))
+* [ABP Community Talks 2022.9: .NET 7.0 & ABP 7.0](https://www.youtube.com/watch?v=ElhFMhLNyqY) - [📜 Slides](https://github.com/EngincanV/presentations/tree/main/ABP/Community-Talks-2022.9)
+* [ABP Community Talks 2022.6: ABP Framework v6.0 & OpenIddict](https://www.youtube.com/watch?v=th3IugJGQDA) - [📜 Slides](https://github.com/EngincanV/presentations/tree/main/ABP/Community-Talks-2022.6)
 
-> For source materials of these talks see [this repository](https://github.com/EngincanV/presentations).
+> To check my other public talks see [this repository](https://github.com/EngincanV/presentations).
