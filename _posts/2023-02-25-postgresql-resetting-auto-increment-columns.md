@@ -46,7 +46,7 @@ SELECT MAX("Id") FROM "MyTable";
 SELECT nextVal('"MyTable_Id_seq"');
 ```
 
-> The sequence convention is *<TableName>_<AutoIncrementColumnName>_seq*. Thus, if you have this problem and want to check it, don't forget to change it according to your database table and column name.
+> The sequence convention is *<<TableName>>_<<AutoIncrementColumnName>>_seq*. Thus, if you have this problem and want to check it, don't forget to change it according to your database table and column name.
 
 We executed these queries one by one and were expecting the second query to return a lower value than the first one. Indeed the first query returned *86,800* and the second one returned  *125*.  It was obvious that they were out of sync, so we needed to sync them. To do this, we used the `setval` method and set the next sequence value as ***max_sequence_value + 1***. 
 
