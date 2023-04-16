@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "C# - Expression Trees"
-date:   2023-04-15 00:00:00 +0000
+date:   2023-04-16 00:00:00 +0000
 categories: C# Expression-Trees 
 ---
 
