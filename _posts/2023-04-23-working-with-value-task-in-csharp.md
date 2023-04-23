@@ -9,8 +9,6 @@ In this post, I will be mentioning about `ValueTask` and `ValueTask<TResult>` cl
 
 We will be seeing its uses and benefits in the next sections. We will first see an example asynchronous method, inspect it and talk about its possible problems. Then, we will be talking about what we can do to overcome those problems. After that, to see the effect of our changes we will compare the benchmark results of both approaches and assess the results. 
 
-Let's get started with a simple asynchronous method.
-
 ## Task (A simple asynchronous method)
 
 `Task` class is a representation of an asynchronous operation. It's a "promise" and represents the eventual completion of some operation. It basically provides a mechanism to manage the state (faulted, canceled, completed, etc.) of code execution that will complete in the future.
