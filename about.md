@@ -4,6 +4,7 @@
 <div align="center">  
     <a href="https://linkedin.com/in/engincan-veske-b4a75b145" target="blank"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin" /></a>
     <a href="https://twitter.com/EngincanVeske" target="blank"><img src="https://img.shields.io/twitter/follow/EngincanVeske?style=social" /></a>
+    <a href="https://github.com/EngincanV/" target="blank"><img src="https://img.shields.io/github/followers/EngincanV?label=follow&style=social" /></a>
     <a href="https://stackoverflow.com/users/10477283" target="blank"><img src="https://img.shields.io/stackexchange/stackoverflow/r/10477283?label=stackoverflow&color=orange" /></a>
     <a href="https://medium.com/@enginveske" target="blank"><img src="https://img.shields.io/badge/500+-grey?logo=medium&label=medium" /></a>
     <a href="mailto:enginveske@gmail.com" target="blank"><img src="https://img.shields.io/badge/contact%20with%20me-white?logo=gmail" /></a>
