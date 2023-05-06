@@ -7,7 +7,7 @@ categories: Book-Review C# C#-in-depth
 
 In this article, I will be sharing my thoughts on one of the most popular C# books: [C# in Depth](https://www.amazon.com/C-Depth-4E-Jon-Skeet/dp/1617294535). I haven't finished the book yet and currently reading it, but I read more than half of the book and thought I could briefly mention my first impressions about the book.
 
-| ![C# in Depth](/assets/images/book-review/csharp-in-depth.jpg) |
+| <img src="/assets/images/book-review/csharp-in-depth.jpg" alt="C# in Depth" width="200px"/> |
 |:--:|
 | <b>C# in Depth, Fourth Edition by Jon Skeet.</b>|
 
