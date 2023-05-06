@@ -33,13 +33,11 @@ The book contains 4 parts and 15 sections as follows:
    2. Stringy features
    3. A smörgåsbord of features for concise code
 4. C# 7 and Beyond
-   1. Composition using tuples _(currently reading)_
+   1. Composition using tuples _(**I'm currently reading this section**)_
    2. Deconstruction and pattern matching
    3. Improving efficiency with more pass by reference
    4. Concise code in C# 7
    5. C# 8 and beyond
-
-> Currently, I'm reading the 11th section, which is the _Composition using tuples_. So far, I really liked the book and it wasa joy to read it.
 
 Let's talk about the good and bad sides of the book, what I have learned by reading it, who should read this book etc...
 
