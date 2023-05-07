@@ -3,6 +3,7 @@ layout: post
 title:  "Strongly Typed Enum Pattern"
 date:   2022-10-18 00:00:00 +0300
 categories: Patterns
+image: "/assets/images/strongly-typed-enums-article/book-type.png"
 ---
 
 In this post, we will take a look at the [Enum type](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/enum) in C#. We should use the Enum type carefully and in this article I aim to show how we can make it more robust by using the **strongly typed enum pattern**.

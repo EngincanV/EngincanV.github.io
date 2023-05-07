@@ -3,6 +3,7 @@ layout: post
 title:  "My Notes from Google Technical Writing Course"
 date:   2022-12-11 00:00:00 +0300
 categories: technical-writing
+image: "/assets/images/tech-writing/outline.png"
 ---
 
 Technical writing is an important skill and I think every engineer needs to spend some time improving their writing skills. There are great free courses all over the internet and [Google's Technical Writing One](https://developers.google.com/tech-writing/one) course is one of them.

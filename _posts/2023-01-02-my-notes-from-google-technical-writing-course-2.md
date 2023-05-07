@@ -3,6 +3,7 @@ layout: post
 title:  "My Notes from Google Technical Writing Course - 2"
 date:   2023-01-02 00:00:00 +0000
 categories: technical-writing
+image: "/assets/images/tech-writing/outline.png"
 ---
 
 Technical writing is an important skill and it's part of our daily tasks. You write code and technical documentation to present your development to the consumers of your application/product. It's a great learning step and also helps to improve documented API. For example, while writing an article you can see the missing APIs or new features/enhancements and take action for that.

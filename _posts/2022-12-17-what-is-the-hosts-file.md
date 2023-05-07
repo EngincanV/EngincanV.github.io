@@ -3,6 +3,7 @@ layout: post
 title:  "What is the hosts file and how to block websites by using it?"
 date:   2022-12-17 00:00:00 +0300
 categories: hosts tcp/ip dns
+image: "/assets/images/hosts-article/github-connection-refused.png"
 ---
 
 In this article, we are going to cover what is the hosts file and why we might want to use it. Also, I will mention how to block a website by configuring this file. 

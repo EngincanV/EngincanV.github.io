@@ -3,6 +3,7 @@ layout: post
 title:  "How to Create Custom Route Constraints in .NET Core? - IRouteConstraint"
 date:   2023-02-05 00:00:00 +0000
 categories: .NET .NET-Core
+image: "/assets/images/route-constraint/list.png"
 ---
 
 In this article, I will introduce the `IRouteConstraint` interface, which allows us to determine whether a route contains a valid value for a specified constraint. Before, digging into the code and showing how we can create a custom route constraint, first I want to mention why we even need to use a route constraint. 

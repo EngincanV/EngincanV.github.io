@@ -3,6 +3,7 @@ layout: post
 title:  "Asp.Net Core - Deferred Option Pattern"
 date:   2022-06-09 00:00:00 +0300
 categories: Options-Pattern Dotnet .NET-Core
+image: "/assets/images/deferred-option-pattern-article/sitemap.jpeg"
 ---
 
 In this article, I will try to explain how we can define the settings in our applications in a deferred way by using the `IConfigureOptions<TOptions>` interface.

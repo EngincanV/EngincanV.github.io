@@ -3,6 +3,7 @@ layout: post
 title:  "C# - Expression Trees"
 date:   2023-04-16 00:00:00 +0000
 categories: C# Expression-Trees 
+image: "/assets/images/expression-trees/expression-tree.png"
 ---
 
 **Expression Trees** is one of the most important and frequently used feature of C# language. Nevertheless, it's overlooked by most developers. Most of us consume some codes that use Expression Trees from some popular libraries such as *EntityFramework Core* and *AutoMapper* without even knowing it. Therefore, I wanted to create an article to describe what it is and why we even need to know or use it.

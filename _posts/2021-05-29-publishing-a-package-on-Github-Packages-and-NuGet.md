@@ -3,6 +3,7 @@ layout: post
 title:  "Publishing a Package on Github Packages & NuGet"
 date:   2021-05-29 00:00:00 +0000
 categories: NuGet Github Package-Management SeoHelper
+image: "/assets/images/publishing-package/cover-image.png"
 ---
 
 In this article, I will talk about how we can publish a package that we have created, on both GitHub and NuGet.

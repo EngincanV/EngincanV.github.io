@@ -3,6 +3,7 @@ layout: post
 title:  "What is Ngrok? Hosting An Application On The Internet With Ngrok"
 date:   2022-07-02 14:00:00 +0300
 categories: Ngrok HTTP-Tunnelling
+image: "/assets/images/ngrok/cover.png"
 ---
 
 Hello everyone, in this article I'll show you how to host an application that runs on the localhost to the internet without deploying by using [ngrok](https://ngrok.com/).

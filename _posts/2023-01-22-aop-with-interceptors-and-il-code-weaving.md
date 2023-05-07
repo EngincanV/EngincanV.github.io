@@ -3,6 +3,7 @@ layout: post
 title:  "AOP with Interceptors and IL Code Weaving in .NET Applications"
 date:   2023-01-29 00:00:00 +0000
 categories: AOP Aspect-Oriented-Programming Interceptors Code-Weaving IL-Weaving .NET
+image: "/assets/images/aop/interceptors.png"
 ---
 
 In this article, I will briefly mention about what Aspect Oriented Programming (AOP) is, how it can improve our applications' modularity, and how we can achieve it.

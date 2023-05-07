@@ -3,6 +3,7 @@ layout: post
 title:  "Usage of Consul in .NET Core - Configuration Management"
 date:   2022-06-10 00:00:00 +0300
 categories: Configuration Consul Dotnet .NET-Core
+image: "/assets/images/consul-article/consul.png"
 ---
 
 In this article, I would like to talk about the **Consul** tool, which enables us to change/manage our settings on the .NET Core side from a central point, via the UI. Firstly, let's start by talking about what **Consul** is and what advantages does it provide for us.

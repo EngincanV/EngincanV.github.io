@@ -3,6 +3,7 @@ layout: post
 title:  "Extending the Application Configuration Endpoint"
 date:   2022-08-03 00:00:00 +0300
 categories: ABP
+image: "/assets/images/application-configuration-article/application-configuration-endpoint.png"
 ---
 
 In this article, I'll show you how you can add extra-properties to the [Application Configuration](https://docs.abp.io/en/abp/latest/API/Application-Configuration) endpoint. 

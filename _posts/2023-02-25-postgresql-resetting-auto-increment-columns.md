@@ -3,6 +3,7 @@ layout: post
 title:  "PostgreSQL - Resetting Auto-Increment Sequence"
 date:   2023-02-25 00:00:00 +0000
 categories: PostgreSQL SQL Sequence 
+image: "/assets/images/postgresql/cover-image.png"
 ---
 
 A short time ago, in a project that I worked on, we migrated the project from SQL Server to PostgreSQL. During this process, we faced a couple of problems. 

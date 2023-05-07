@@ -3,6 +3,7 @@ layout: post
 title:  "Testing in ABP Framework"
 date:   2022-10-14 00:00:00 +0300
 categories: ABP Test
+image: "/assets/images/testing-in-abp/test-projects.png"
 ---
 
 In this post, we will take a brief look at the testing infrastructure of ABP Framework and cover some common requirements (such as mocking the [CurrentUser](https://docs.abp.io/en/abp/latest/CurrentUser)). I intend to give brief instructions and show codes for common test requirements.
