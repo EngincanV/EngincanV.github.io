@@ -3,6 +3,7 @@ layout: post
 title:  "Working with ValueTask in C#"
 date:   2023-04-23 00:00:00 +0000
 categories: C# ValueTask Async-Await
+image: "/assets/images/value-task/benchmark.png"
 ---
 
 In this post, I will be mentioning about `ValueTask` and `ValueTask<TResult>` classes, which represent asynchronous operations like other task based classes such as `Task` and `Task<TResult>`. 

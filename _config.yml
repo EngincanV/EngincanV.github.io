@@ -39,4 +39,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
 
+feed:
+  posts_limit: 100 #default 10 (for feed.xml)
+
 remote_theme: samarsault/plainwhite-jekyll
