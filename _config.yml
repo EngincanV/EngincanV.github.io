@@ -41,6 +41,5 @@ plugins:
 
 feed:
   posts_limit: 1000 #default 10 (for feed.xml)
-  excerpt_only: true #exclude contents from the feed
 
 remote_theme: samarsault/plainwhite-jekyll
