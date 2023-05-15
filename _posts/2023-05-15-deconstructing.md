@@ -23,8 +23,6 @@ Console.WriteLine("Full name: " + firstname + " " + lastname);
 The default names of tuple fields are **Item1, Item2, Item3** and so on. So, we don't have to use tuples as named fields. See the following example for a demonstration:
 
 ```csharp
-(string, string) = ("Engincan", "Veske");
-
 var user = ("Engincan", "Veske");
 var firstname = user.Item1; //"Engincan"
 var lastname = user.Item2; //"Veske"
