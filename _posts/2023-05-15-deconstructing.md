@@ -102,6 +102,27 @@ var (x, y) = coordinate;
 
 This might not be important, or necessary (and it's not for our example) but it's good to have. You can define a `Deconstruct` method for a user-defined class and take advantage of the Tuple type.
 
+Let's take a look at a concrete example that can be used in our daily code. It's a common task to get the current date time and its members, such as `Year`, `Month`, and `Day`. For such cases, we can create an extension method called `Deconstruct` with **void** as the return type as follows:
+
+```csharp
+public static class DateTimeExtensions
+{
+    public static void Deconstruct(this DateTime dateTime, out int year, out int month, out int day) =>
+        (year, month, day) = (dateTime.Year, dateTime.Month, dateTime.Day);
+}
+```
+
+When we create such an extension method, the compiler will do the rest and see this method as a declaration of the deconstruction as tuples. So, we can deconstruct this method as follows:
+
+```csharp
+var dateTime = DateTime.UtcNow;
+
+//get year, month and day from the current date time
+var (year, month, day) = dateTime;
+```
+
+This kind of use can be pretty helpful, instead of creating variables and assigning values to them one by one.
+
 ## Conclusion
 
 In this article, I wanted to provide you with a tip to deconstruct tuples for user-defined classes. It's a good feature and can make your code more readable for certain cases. 
