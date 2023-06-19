@@ -113,7 +113,7 @@ JobQueues.GetOrAdd(
 
 ```csharp
 //Concatenates the book names separated with comma
-var bookNamesSeperatedWithComma = bookNames.JoinAsString(".");
+var bookNamesSeperatedWithComma = bookNames.JoinAsString(",");
 
 //if startTime is not null, then apply the filter 
 var identitySecurityLog = securityLogs.WhereIf(
@@ -123,7 +123,7 @@ var identitySecurityLog = securityLogs.WhereIf(
         .First();
 ```
 
-* `JoinAsString`: Concatenates the members of a collection, using the specified separator between each member. In the example above, we have used it to store all bookNames in a `string` field, separated with a comma ("bookName1.bookName2.....").
+* `JoinAsString`: Concatenates the members of a collection, using the specified separator between each member. In the example above, we have used it to store all bookNames in a `string` field, separated with a comma ("bookName1,bookName,...").
 * `WhereIf`: Filters the list by given predicate if the given condition is true.
 
 ## String Extensions
