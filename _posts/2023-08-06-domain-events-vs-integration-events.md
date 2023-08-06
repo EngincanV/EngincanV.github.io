@@ -38,6 +38,8 @@ Let's assume again, we have an e-commerce application and have some services, su
 
 What we should do when a product price is updated? How we can reflect this change to a basket with the product which its price updated?
 
+![](/assets/images/events/basket-ms-domain-model.png)
+
 If a product price is updated in the *Catalog Microservice*, we should check the existing basket items in the *Basket Microservice* and update the same product price - reflect the same change in the basket service - and this can be achieved by publishing an integration event in the *Catalog Microservice* and handling the event in the *Basket Microservice* asynchronously.
 
 By doing that, we can sync the domain state across multiple microservices. 
