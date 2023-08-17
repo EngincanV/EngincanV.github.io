@@ -30,3 +30,11 @@
 
 * [dotcode](https://open.spotify.com/show/2a4W8oDAGxqr4pDUnb2K4H): We mainly talk about software engineering and tech news.  Our main objectives are to broaden our knowledge and communicate our ideas and experiences to the audience.
 * [Sıfırdan Bire](https://open.spotify.com/show/4Iliz5SjCs6ayUglQ48Use): In this podcast channel, my 5 friends and I share our experiences in the field. Some of our previous talks topics: "Adaptation to new technology", "Internship", "Back to basics", and "Software quality assurance & test operations".
+
+## Achievements
+
+### CLIMATHON 2019 - Hackathon
+
+Climathon 2019 is a competition with more than 5000 participants from 46 countries and 113 cities. In the Izmir/Turkey leg of this competition, the idea we presented about global warming with my teammates rewarded the 3rd prize.
+
+
