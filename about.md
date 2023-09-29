@@ -20,6 +20,7 @@
 
 🎤 I give public talks. Here are my some recent talks:
 
+* [ABP Community Talks 2023.7: Build Your Own CMS with .NET](https://www.youtube.com/watch?v=S9__Hnu29tI) - [📜 Slides](https://github.com/EngincanV/presentations/tree/main/ABP/Community-Talks-2023.7)
 * [ABP Community Talks 2023.1: LeptonX Customization](https://www.youtube.com/watch?v=R9CqTtn6Wcg) - [📜 Slides](https://github.com/EngincanV/presentations/tree/main/ABP/Community-Talks-2023.1)
 * [ABP Community Talks 2022.9: .NET 7.0 & ABP 7.0](https://www.youtube.com/watch?v=ElhFMhLNyqY) - [📜 Slides](https://github.com/EngincanV/presentations/tree/main/ABP/Community-Talks-2022.9)
 * [ABP Community Talks 2022.6: ABP Framework v6.0 & OpenIddict](https://www.youtube.com/watch?v=th3IugJGQDA) - [📜 Slides](https://github.com/EngincanV/presentations/tree/main/ABP/Community-Talks-2022.6)
