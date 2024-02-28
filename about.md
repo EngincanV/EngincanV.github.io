@@ -6,6 +6,7 @@
     <a href="https://twitter.com/EngincanVeske" target="blank"><img src="https://img.shields.io/twitter/follow/EngincanVeske?style=social" /></a>
     <a href="https://github.com/EngincanV/" target="blank"><img src="https://img.shields.io/github/followers/EngincanV?label=follow&style=social" /></a>
     <a href="https://stackoverflow.com/users/10477283" target="blank"><img src="https://img.shields.io/stackexchange/stackoverflow/r/10477283?label=stackoverflow&color=orange" /></a>
+    <a href="https://sessionize.com/engincan-veske/" target="blank"><img src="https://img.shields.io/badge/-Sessionize-1AB394?style=flat&logo=sessionize&logoColor=white" /></a>
     <a href="https://medium.com/@enginveske" target="blank"><img src="https://img.shields.io/badge/500+-grey?logo=medium&label=medium" /></a>
     <a href="mailto:enginveske@gmail.com" target="blank"><img src="https://img.shields.io/badge/contact%20with%20me-white?logo=gmail" /></a>
 </div>
@@ -18,12 +19,7 @@
 
 💻 Most of my works are open source and available on [GitHub](https://github.com/EngincanV). 
 
-🎤 I give public talks. Here are my some recent talks:
-
-* [ABP Community Talks 2023.7: Build Your Own CMS with .NET](https://www.youtube.com/watch?v=S9__Hnu29tI) - [📜 Slides](https://github.com/EngincanV/presentations/tree/main/ABP/Community-Talks-2023.7)
-* [ABP Community Talks 2023.1: LeptonX Customization](https://www.youtube.com/watch?v=R9CqTtn6Wcg) - [📜 Slides](https://github.com/EngincanV/presentations/tree/main/ABP/Community-Talks-2023.1)
-* [ABP Community Talks 2022.9: .NET 7.0 & ABP 7.0](https://www.youtube.com/watch?v=ElhFMhLNyqY) - [📜 Slides](https://github.com/EngincanV/presentations/tree/main/ABP/Community-Talks-2022.9)
-* [ABP Community Talks 2022.6: ABP Framework v6.0 & OpenIddict](https://www.youtube.com/watch?v=th3IugJGQDA) - [📜 Slides](https://github.com/EngincanV/presentations/tree/main/ABP/Community-Talks-2022.6)
+🎤 I try to give public talks whenever possible. See my talks and presentations 👉 [EngincanV/presentations](https://github.com/EngincanV/presentations).
 
 > For my other public talks see: [https://github.com/EngincanV/presentations](https://github.com/EngincanV/presentations).
 
