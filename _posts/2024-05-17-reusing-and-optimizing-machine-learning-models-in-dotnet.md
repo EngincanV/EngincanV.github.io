@@ -3,7 +3,7 @@ layout: post
 title:  "Reusing and Optimizing Machine Learning Models in .NET"
 date:   2024-05-17 00:00:00 +0300
 categories: Machine-Learning Sentiment-Analysis Best-Practises
-image: "/assets/ml/sentiment-analysis.png"
+image: "/assets/images/ml/sentiment-analysis.png"
 ---
 
 In my [previous article](https://community.abp.io/posts/sentiment-analysis-within-abpbased-application-lbsfkoxq), I showed you how to apply sentiment analysis in a .NET Application (an ABP-based application) within a practical and simple example. In the example, we created a **spam detection service** and tried to detect spam content whenever a new comment has been added or an existing comment has been updated. 
