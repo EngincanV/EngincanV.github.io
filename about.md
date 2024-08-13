@@ -21,8 +21,6 @@
 
 🎤 I try to give public talks whenever possible. See my talks and presentations 👉 [EngincanV/presentations](https://github.com/EngincanV/presentations).
 
-> For my other public talks see: [https://github.com/EngincanV/presentations](https://github.com/EngincanV/presentations).
-
 🎙️ Also, I broadcast podcasts with my friends in Turkish:
 
 * [dotcode](https://open.spotify.com/show/2a4W8oDAGxqr4pDUnb2K4H): We mainly talk about software engineering and tech news.  Our main objectives are to broaden our knowledge and communicate our ideas and experiences to the audience.
